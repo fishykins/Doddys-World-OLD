@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a514a6bd12b26b4088da57ac1bfb909, type: 3}
+  m_Name: Default Shape
+  m_EditorClassIdentifier: 
+  chunksPerFace: 5
+  faceResolution: 128
+  levelOfDetail: 0
+  dayLength: 15
+  noiseLayers:
+  - enabled: 1
+    useFirstLayerAsMask: 0
+    noiseSettings:
+      filterType: 0
+      simpleNoiseSettings:
+        strength: 0.02
+        numLayers: 4
+        baseRoughness: 7.46
+        roughness: 3.8
+        persistence: 0.35
+        centre: {x: 2.23, y: 0.12, z: 0}
+        minValue: 0.8
+      rigidNoiseSettings:
+        strength: 0
+        numLayers: 0
+        baseRoughness: 0
+        roughness: 0
+        persistence: 0
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0
+        weightMultiplier: 0
+  - enabled: 1
+    useFirstLayerAsMask: 1
+    noiseSettings:
+      filterType: 1
+      simpleNoiseSettings:
+        strength: 0.05
+        numLayers: 4
+        baseRoughness: 1.67
+        roughness: 3.07
+        persistence: 0.34
+        centre: {x: 2.23, y: 0.12, z: 0}
+        minValue: 0.8
+      rigidNoiseSettings:
+        strength: 2
+        numLayers: 4
+        baseRoughness: 2.01
+        roughness: 3.71
+        persistence: 0.79
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0
+        weightMultiplier: 0
